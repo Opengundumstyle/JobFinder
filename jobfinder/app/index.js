@@ -12,7 +12,7 @@ const Home =()=>{
          <SafeAreaView style={{flex:1,backgroundColor:COLORS.lightWhite}}>
              <Stack.Screen
               options={{
-                 headerStyle:{backgroundColor:COLORS.lightwhite},
+                 headerStyle:{backgroundColor:COLORS.lightWhite},
                  headerShadowVisible:false,  
                  headerLeft:()=>(
                     <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%"/>
