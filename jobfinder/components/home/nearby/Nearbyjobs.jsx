@@ -4,21 +4,20 @@ import { useRouter } from 'expo-router'
 import styles from './nearbyjobs.style' 
 import {COLORS} from '../../../constants'
 import NearbyJobCard from '../../common/cards/nearby/NearbyJobCard'
-import useFetch from '../../../hook/useFetch'
-
+import useFetch2 from '../../../hook/useFetch2'
 
 
 const Nearbyjobs = () => {
 
   const router = useRouter()
 
-  const {data,isLoading,error} = useFetch('search',{
-       query:'React developer',
+  const {data,isLoading,error} = useFetch2('search',{
+       query:"React Native developer",
        num_pages:1
   })
 
-  console.log(data)
-
+ 
+  
   return (
     <View style={styles.container}>
        <View style={styles.header}>
