@@ -36,7 +36,7 @@ const useFetch2 =(endpoint,query)=>{
         useEffect(()=>{
             setTimeout(function(){
                   fetchData()
-            },1000)
+            },2000)
         },[])
 
         const refetch = ()=>{

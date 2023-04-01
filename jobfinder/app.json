@@ -5,6 +5,8 @@
       "bundler": "metro"
     },
     "name": "jobfinder",
-    "slug": "jobfinder"
+    "slug": "jobfinder",
+    "icon":"./assets/iTunesArtwork@3x.png"
+
   }
 }
